@@ -5,7 +5,7 @@ This is a simple serverless application.
 ```
 npm install -g serverless
 ```
-2. Create your AWS IAM user add to it the "Administrator Access" policy, in serverless.yml, under provider, change the   profile name to profile:<your aws user name>
+2. Create a AWS IAM user, add the "Administrator Access" policy to it. Then in serverless.yml, under provider, change the   profile name to profile:your IAM user name
 3. From the user you just created, create an access key for it.
 4. Configure your AWS credentials using terminal
 ```
