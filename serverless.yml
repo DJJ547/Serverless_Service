@@ -1,0 +1,21 @@
+service: serverless-api
+# app and org for use with dashboard.serverless.com
+app: serverless-api
+org: djj547
+
+frameworkVersion: "3"
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+  profile: 'ServerlessAccount'
+  region: us-west-1
+
+functions:
+    getUser:
+        handler: lambdas/getUser.handler
+        events:
+            - http:
+                  path: get-user/{ID}
+                  method: GET
+                  cors: true
