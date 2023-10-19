@@ -20,8 +20,8 @@ exports.handler = async event => {
 };
 
 const data = {
-    1234: { firstName: 'Jiajun', lastName: 'Dai' },
+    '014291836': { firstName: 'Jiajun', lastName: 'Dai' },
     7893: { firstName: 'Sarah', lastName: 'Yu' },
-    5132: { firstName: 'Walton', lastName: 'Ma' },
+    '011951316': { firstName: 'Walton', lastName: 'Ma' },
     1234: { firstName: 'Yifu', lastName: 'Fang' },
 };
