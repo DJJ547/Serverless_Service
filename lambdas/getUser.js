@@ -21,7 +21,7 @@ exports.handler = async event => {
 
 const data = {
     '014291836': { firstName: 'Jiajun', lastName: 'Dai' },
-    7893: { firstName: 'Sarah', lastName: 'Yu' },
+    '16099252': { firstName: 'Sarah', lastName: 'Yu' },
     '011951316': { firstName: 'Walton', lastName: 'Ma' },
     1234: { firstName: 'Yifu', lastName: 'Fang' },
 };
